@@ -15,7 +15,7 @@ def print_board(board):
 
 # Размещаем корабли на поле
 def place_ships(board):
-    ships = [5, 4, 3, 3, 2]  # Длины кораблей
+    ships = [4, 3, 3, 2, 2, 2, 1, 1, 1, 1]  # Длины кораблей
     for ship_length in ships:
         while True:
             orientation = random.choice(["horizontal", "vertical"])
