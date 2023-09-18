@@ -1,6 +1,5 @@
 import random
 
-# Создаем игровое поле
 def create_board():
     board = []
     for _ in range(10):
