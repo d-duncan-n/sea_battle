@@ -7,7 +7,6 @@ def create_board():
         board.append(row)
     return board
 
-# Выводим игровое поле на экран
 def print_board(board):
     for row in board:
         print(" ".join(row))
