@@ -11,7 +11,6 @@ def print_board(board):
     for row in board:
         print(" ".join(row))
 
-# Размещаем корабли на поле
 def place_ships(board):
     ships = [4, 3, 3, 2, 2, 2, 1, 1, 1, 1]  # Длины кораблей
     for ship_length in ships:
