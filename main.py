@@ -26,7 +26,6 @@ def place_ships(board):
                 place_ship(board, ship_length, x, y, orientation)
                 break
 
-# Проверяем, можно ли разместить корабль на данной позиции
 def is_valid_placement(board, ship_length, x, y, orientation):
     if orientation == "horizontal":
         for i in range(ship_length):
