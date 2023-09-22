@@ -37,7 +37,6 @@ def is_valid_placement(board, ship_length, x, y, orientation):
                 return False
     return True
 
-# Размещаем корабль на поле
 def place_ship(board, ship_length, x, y, orientation):
     if orientation == "horizontal":
         for i in range(ship_length):
