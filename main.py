@@ -45,7 +45,6 @@ def place_ship(board, ship_length, x, y, orientation):
         for i in range(ship_length):
             board[x + i][y] = "S"
 
-# Выстрел игрока
 def player_shot(board):
     while True:
         try:
