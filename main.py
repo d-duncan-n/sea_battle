@@ -66,7 +66,6 @@ def player_shot(board):
         except ValueError:
             print("Введите корректные числа.")
 
-# Выстрел компьютера
 def computer_shot(board):
     while True:
         x = random.randint(0, 9)
