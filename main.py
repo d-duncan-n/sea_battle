@@ -81,7 +81,6 @@ def computer_shot(board):
             board[x][y] = "M"
             return
 
-# Проверяем, закончена ли игра
 def is_game_over(board):
     for row in board:
         if "S" in row:
