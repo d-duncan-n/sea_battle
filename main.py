@@ -87,7 +87,6 @@ def is_game_over(board):
             return False
     return True
 
-# Основная функция игры
 def main():
     player_board = create_board()
     computer_board = create_board()
