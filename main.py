@@ -2,8 +2,8 @@ import random
 
 def create_board():
     board = []
-    for _ in range(10):
-        row = ["O"] * 10
+    for _ in range(20):
+        row = ["O"] * 20
         board.append(row)
     return board
 
