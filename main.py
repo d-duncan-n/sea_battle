@@ -17,8 +17,8 @@ def place_ships(board):
         while True:
             orientation = random.choice(["horizontal", "vertical"])
             if orientation == "horizontal":
-                x = random.randint(0, 9)
-                y = random.randint(0, 9 - ship_length)
+                x = random.randint(0, 19)
+                y = random.randint(0, 19 - ship_length)
             else:
                 x = random.randint(0, 9 - ship_length)
                 y = random.randint(0, 9)
