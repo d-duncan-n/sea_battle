@@ -20,8 +20,8 @@ def place_ships(board):
                 x = random.randint(0, 19)
                 y = random.randint(0, 19 - ship_length)
             else:
-                x = random.randint(0, 9 - ship_length)
-                y = random.randint(0, 9)
+                x = random.randint(0, 19 - ship_length)
+                y = random.randint(0, 19)
             if is_valid_placement(board, ship_length, x, y, orientation):
                 place_ship(board, ship_length, x, y, orientation)
                 break
