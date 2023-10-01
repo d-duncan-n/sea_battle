@@ -50,7 +50,7 @@ def player_shot(board):
         try:
             x = int(input("Введите номер строки (0-9): "))
             y = int(input("Введите номер столбца (0-9): "))
-            if 0 <= x < 10 and 0 <= y < 10:
+            if 0 <= x < 20 and 0 <= y < 20:
                 if board[x][y] == "S":
                     print("Попадание!")
                     board[x][y] = "X"
