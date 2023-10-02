@@ -68,8 +68,8 @@ def player_shot(board):
 
 def computer_shot(board):
     while True:
-        x = random.randint(0, 9)
-        y = random.randint(0, 9)
+        x = random.randint(0, 19)
+        y = random.randint(0, 19)
         if board[x][y] == "S":
             print("Компьютер попал в ваш корабль!")
             board[x][y] = "X"
