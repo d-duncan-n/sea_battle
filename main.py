@@ -12,7 +12,7 @@ def print_board(board):
         print(" ".join(row))
 
 def place_ships(board):
-    ships = [4, 3, 3, 2, 2, 2, 1, 1, 1, 1] 
+    ships = [4, 3, 3, 2, 2, 2, 1, 1, 1] 
     for ship_length in ships:
         while True:
             orientation = random.choice(["horizontal", "vertical"])
