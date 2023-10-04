@@ -62,7 +62,7 @@ def player_shot(board):
                     board[x][y] = "M"
                     return
             else:
-                print("Неверные координаты. Введите числа от 0 до 9.")
+                print("Неверные координаты. Введите числа от 0 до 19.")
         except ValueError:
             print("Введите корректные числа.")
 
